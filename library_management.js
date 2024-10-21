@@ -47,3 +47,17 @@ vipPatron.borrowBook(book1);
 regularPatron.returnBook(book1);
 vipPatron.returnBook(book1);
 
+// Task 4: Create a VIPPatron Class that Inherits from Patron
+
+class VIPPatron extends Patron {
+    constructor( name , property)
+     {
+        super(name)
+        this.property = true
+    
+    }
+}
+    else {
+        console.log(`${this.name} priority to borrow "${book}"`);
+        super.borrowBook(book);
+    }
