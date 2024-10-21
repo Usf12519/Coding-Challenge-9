@@ -61,3 +61,11 @@ class VIPPatron extends Patron {
         console.log(`${this.name} priority to borrow "${book}"`);
         super.borrowBook(book);
     }
+
+// Task 5: Handle Books Borrowing and Returning
+
+calculateTotalBooksAvailable()
+console.log(`Total available books in Fiction: ${fiction.getAvailableBooks()}`);
+console.log(`Total available books in Math: ${math.getAvailableBools()}`);
+console.log(`Total available books in English: ${english.getAvailableBools()}`);
+
