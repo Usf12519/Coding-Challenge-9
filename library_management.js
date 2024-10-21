@@ -28,3 +28,22 @@ class Section {
     english.addBook(Book3);
     
 }
+
+// Task 3: Creating a Patron Class
+
+class Patron {
+    constructor( Name , borrowedBooks)
+     {
+        regularPatron = new Patron("Casey DeSmith");
+        vipPatron = new VIPPatron("Rebecca Smith" , true);
+        
+    }
+}
+
+// Borrowing and Returning Books
+
+regularPatron.borrowBook(book1);
+vipPatron.borrowBook(book1);
+regularPatron.returnBook(book1);
+vipPatron.returnBook(book1);
+
